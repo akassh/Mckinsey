@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 public class HashTag {
-  	public static void main(String[] args)
+		public static void main(String[] args)
 		{
 			Set<String> webs = new TreeSet<String>();
 			if(args.length < 1)
@@ -50,8 +50,7 @@ public class HashTag {
 				System.out.println("Malformed URL Exception !!!");
 				e.printStackTrace();
 			}
-			catch (IOException e)
-      {
+			catch (IOException e) {
 				System.out.println("URL Stream read Exception or connection error !!!");
 				e.printStackTrace();
 			}
